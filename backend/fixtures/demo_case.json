@@ -1,0 +1,126 @@
+{
+  "id": "demo-case-123",
+  "title": "Smith v. Jones Construction (Demo)",
+  "description": "Contract dispute over timeline delays and material quality in a residential build. The homeowner (Smith) hired Jones Construction for a $150,000 residential renovation. The project experienced significant delays and the client has raised concerns about the quality of materials used, specifically the flooring.",
+  "parties_involved": "John Smith (Homeowner), Jones Construction LLC (Contractor)",
+  "approximate_date": "January 2023 — June 2023",
+  "objective": "Understand contractual obligations, evaluate evidence for a potential breach of contract claim, and prepare for a legal consultation.",
+  "status": "In Progress",
+  "facts": [
+    {
+      "fact": "A construction contract was signed on January 15, 2023 for $150,000.",
+      "evidence": "Signed_Contract.pdf",
+      "confidence": "document_supported",
+      "source_passage": "This agreement is entered into on the 15th day of January, 2023, for a total contract price of One Hundred and Fifty Thousand Dollars ($150,000)."
+    },
+    {
+      "fact": "The contract specifies premium oak hardwood flooring as the agreed material.",
+      "evidence": "Signed_Contract.pdf",
+      "confidence": "document_supported",
+      "source_passage": "Section 4.2 Materials: Contractor shall install premium oak hardwood flooring throughout the ground floor as specified in Exhibit A."
+    },
+    {
+      "fact": "The project was delayed by at least 2 weeks in April 2023 due to weather conditions.",
+      "evidence": "Weather_Report_April.pdf",
+      "confidence": "document_supported",
+      "source_passage": "Severe weather advisory issued for the region from March 28 to April 12, resulting in 14 consecutive days of work stoppage."
+    },
+    {
+      "fact": "The client complained about the flooring material used, alleging it was not premium oak as specified.",
+      "evidence": "Email_Thread_Flooring.pdf",
+      "confidence": "document_supported",
+      "source_passage": "From: John Smith\nSubject: Flooring Material Concern\n\nThe flooring installed does not appear to match the premium oak hardwood specified in our contract..."
+    },
+    {
+      "fact": "The contract includes a 'Force Majeure' clause covering weather-related delays.",
+      "evidence": "Signed_Contract.pdf",
+      "confidence": "document_supported",
+      "source_passage": "Section 8.1: Neither party shall be liable for delays caused by acts of God, severe weather, or other events beyond reasonable control."
+    },
+    {
+      "fact": "Total payments made to date amount to $100,000 across three installments.",
+      "evidence": "User reported",
+      "confidence": "user_reported",
+      "source_passage": ""
+    }
+  ],
+  "clauses": [
+    {
+      "category": "Payment",
+      "plain_language": "Payment is split into four installments tied to project milestones, with the final 25% due upon completion and inspection.",
+      "original_text": "Section 3: Payment shall be made in four (4) installments: 25% upon signing, 25% upon completion of framing, 25% upon completion of interior work, and 25% upon final inspection and approval.",
+      "source": "Signed_Contract.pdf",
+      "attention_note": "The final 25% ($37,500) is contingent on 'final inspection and approval.' Clarification of what constitutes approval may be useful."
+    },
+    {
+      "category": "Materials",
+      "plain_language": "The contractor is required to use specific materials as listed in Exhibit A, including premium oak hardwood flooring.",
+      "original_text": "Section 4.2: Contractor shall use materials as specified in Exhibit A. Any substitutions must be pre-approved in writing by the Owner.",
+      "source": "Signed_Contract.pdf",
+      "attention_note": "If the flooring material was substituted without written approval, this could be a relevant provision."
+    },
+    {
+      "category": "Force Majeure",
+      "plain_language": "Neither party is liable for delays caused by events beyond their control such as severe weather.",
+      "original_text": "Section 8.1: Neither party shall be liable for delays caused by acts of God, severe weather, or other events beyond reasonable control. Affected party must provide notice within 48 hours.",
+      "source": "Signed_Contract.pdf",
+      "attention_note": "Review whether Jones Construction provided the required 48-hour notice for the weather delay."
+    },
+    {
+      "category": "Dispute Resolution",
+      "plain_language": "Disputes must first go through mediation before any legal proceedings can begin.",
+      "original_text": "Section 12: In the event of a dispute, the parties agree to submit to mediation prior to initiating any legal action. Mediation costs shall be shared equally.",
+      "source": "Signed_Contract.pdf",
+      "attention_note": "Important provision — legal action may require mediation first. Consider asking a legal professional about this."
+    },
+    {
+      "category": "Termination",
+      "plain_language": "Either party may terminate with 30 days written notice if the other party is in material breach.",
+      "original_text": "Section 10: Either party may terminate this agreement upon thirty (30) days written notice in the event of material breach by the other party, provided the breaching party has been given an opportunity to cure.",
+      "source": "Signed_Contract.pdf",
+      "attention_note": "If considering termination, a written cure notice may be required first."
+    }
+  ],
+  "timeline": [
+    { "date": "2023-01-15", "event": "Contract signed for $150,000 residential renovation.", "evidence": "Signed_Contract.pdf", "status": "document_supported" },
+    { "date": "2023-01-20", "event": "First payment installment of $37,500 made.", "evidence": "User reported", "status": "user_reported" },
+    { "date": "2023-03-01", "event": "Framing work completed. Second installment of $37,500 paid.", "evidence": "User reported", "status": "user_reported" },
+    { "date": "2023-03-28", "event": "Severe weather advisory issued for the region.", "evidence": "Weather_Report_April.pdf", "status": "document_supported" },
+    { "date": "2023-04-12", "event": "Weather advisory lifted. Work resumed after 14-day stoppage.", "evidence": "Weather_Report_April.pdf", "status": "document_supported" },
+    { "date": "2023-05-15", "event": "Interior work completed. Third installment of $25,000 paid.", "evidence": "User reported", "status": "user_reported" },
+    { "date": "2023-06-10", "event": "Client raised concern about flooring material via email.", "evidence": "Email_Thread_Flooring.pdf", "status": "document_supported" },
+    { "date": "2023-06-15", "event": "Contractor responded claiming materials meet specification.", "evidence": "Email_Thread_Flooring.pdf", "status": "document_supported" }
+  ],
+  "documents": [
+    { "id": "doc-1", "name": "Signed_Contract.pdf", "type": "Contract", "size": 245000 },
+    { "id": "doc-2", "name": "Weather_Report_April.pdf", "type": "Evidence", "size": 89000 },
+    { "id": "doc-3", "name": "Email_Thread_Flooring.pdf", "type": "Communication", "size": 34000 }
+  ],
+  "missing_info": [
+    {
+      "item": "Original material quote or Exhibit A attachment",
+      "reason": "The contract references 'Exhibit A' for material specifications, but this document has not been uploaded. It would help verify the flooring claim.",
+      "suggestion": "You may want to locate the original Exhibit A or any material specification sheets."
+    },
+    {
+      "item": "Signed change orders",
+      "reason": "If the contractor substituted flooring materials, a written pre-approval should exist per Section 4.2. No such document has been found.",
+      "suggestion": "Check if any written approval for material substitutions was exchanged."
+    },
+    {
+      "item": "48-hour weather delay notice",
+      "reason": "The Force Majeure clause (Section 8.1) requires the affected party to provide notice within 48 hours. No such notice has been uploaded.",
+      "suggestion": "You may want to ask the contractor if formal notice was provided, or check your records for any such communication."
+    },
+    {
+      "item": "Payment receipts or bank statements",
+      "reason": "Payment amounts ($100,000 total) are currently based on user report only and are not verified by uploaded documents.",
+      "suggestion": "Consider uploading bank statements or payment receipts to strengthen the payment trail."
+    },
+    {
+      "item": "Photos of installed flooring",
+      "reason": "The dispute involves the quality/type of flooring installed, but no photographic evidence has been provided.",
+      "suggestion": "Photographs of the installed flooring could be valuable supporting evidence."
+    }
+  ]
+}

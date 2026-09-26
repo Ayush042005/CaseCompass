@@ -1,0 +1,17 @@
+node_modules/
+.venv/
+backend/venv/
+__pycache__/
+.pytest_cache/
+dist/
+build/
+coverage/
+.next/
+*.pdf
+*.mp4
+*.zip
+.env
+*.log
+.DS_Store
+backend/casecompass.db
+backend/__pycache__/
